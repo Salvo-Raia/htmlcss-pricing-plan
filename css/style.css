@@ -29,8 +29,13 @@ header >.container {
 
 /* Header */
 header {
-    padding: 20px 0;
-    margin-bottom: 40px;
+    padding: 20px;
+}
+
+header .header-buttons {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: auto;
 }
 
 header h1 {
@@ -39,7 +44,7 @@ header h1 {
 
 header p {
     color: grey;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /* Cards */
