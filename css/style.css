@@ -33,9 +33,15 @@ header {
 }
 
 header .header-buttons {
-    font-size: 20px;
-    vertical-align: middle;
+    font-size: 18px;
     margin-left: auto;
+    color: grey;
+}
+
+.header-buttons span i {
+    color: black;
+    font-size: 20px;
+    padding-right: 3px;
 }
 
 header h1 {
@@ -48,7 +54,6 @@ header p {
 }
 
 /* Cards */
-
 .card-group {
     display: flex;
     flex-wrap: wrap;
@@ -68,11 +73,22 @@ header p {
     margin-bottom: 20px;
 }
 
-.card-top p,
-.card-main-content p:first-of-type {
+.card-top p, 
+.card-main-content p {
     font-size: 12px;
+    margin-bottom:25px;
+}
+
+.card:nth-of-type(odd) .card-top p,
+.card:nth-of-type(odd) .card-main-content p:first-of-type {
     color: grey;
-    margin-bottom: 25px;
+}
+
+.card:nth-of-type(even) .card-top p,
+.card:nth-of-type(even) .card-main-content p {
+    font-size: 12px;
+    color: white;
+    margin-bottom:25px;
 }
 
 .card-main-content {
@@ -80,7 +96,7 @@ header p {
 }
 
 .card-main-content p:first-of-type span {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     color:black;
 }
@@ -91,9 +107,14 @@ color: white;
 
 .card-main-content p:first-of-type span:before {
     content: '$';
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-right: 5px;
     font-weight: bold;
     color: black;
+}
+
+.card:nth-of-type(even) .card-main-content p:first-of-type span:before {
+    color: rgb(255, 255, 255);
 }
 
 .card-main-content p:last-of-type span {
@@ -102,20 +123,14 @@ color: white;
     border-radius: 5px;
 }
 
-.card:nth-of-type(even) .card-main-content p:first-of-type span:before {
-    content: '$';
-    font-size: 1rem;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-
-.card:nth-of-type(even) .card-main-content p:nth-child(2) span {
+.card .card-main-content p:nth-child(2) span {
     color: black;
+    font-weight: bold;
 }
 
 .card-main-content a {
     display: inline-block;
-    width: 80%;
+    width: 100%;
     padding: 18px 5px;
     text-decoration: none;
     font-weight: bold;
@@ -123,6 +138,16 @@ color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.card:nth-of-type(even) {
+    color: white;
+    background-color: var(--primary-color)
+}
+
+.card:nth-of-type(even) a {
+    color: var(--primary-color);
+    background-color: white;
 }
 
 .card-main-content li {
@@ -139,15 +164,5 @@ color: white;
     justify-content: center;
     text-align: left;
     margin-top: 20px;
-}
-
-.card:nth-of-type(even) {
-    color: white;
-    background-color: var(--primary-color)
-}
-
-.card:nth-of-type(even) a {
-    color: var(--primary-color);
-    background-color: white;
 }
 
