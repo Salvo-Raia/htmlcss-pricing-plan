@@ -30,6 +30,7 @@ header >.container {
 /* Header */
 header {
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 header .header-buttons {
@@ -64,7 +65,7 @@ header p {
     flex-basis: calc(100% /3 - 15px * 2 /3);
     min-width: 250px;
     flex-grow: 1;
-    padding: 30px;
+    padding: 40px 30px;
     border-radius: 15px;
     box-shadow: 0px 3px 4px rgba(0, 0,0, 0.4)
 }
@@ -73,22 +74,21 @@ header p {
     margin-bottom: 20px;
 }
 
-.card-top p, 
-.card-main-content p {
-    font-size: 12px;
-    margin-bottom:25px;
+.card-top h2 {
+    font-size: 28px;
 }
 
 .card:nth-of-type(odd) .card-top p,
-.card:nth-of-type(odd) .card-main-content p:first-of-type {
+.card:nth-of-type(odd) .card-main-content p {
+    font-size: 14px;
     color: grey;
+    margin-bottom: 20px;
 }
 
 .card:nth-of-type(even) .card-top p,
 .card:nth-of-type(even) .card-main-content p {
-    font-size: 12px;
-    color: white;
-    margin-bottom:25px;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .card-main-content {
@@ -125,7 +125,7 @@ color: white;
 
 .card .card-main-content p:nth-child(2) span {
     color: black;
-    font-weight: bold;
+    font-size: 14px;
 }
 
 .card-main-content a {
@@ -137,7 +137,6 @@ color: white;
     color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 .card:nth-of-type(even) {
@@ -150,13 +149,6 @@ color: white;
     background-color: white;
 }
 
-.card-main-content li {
-    font-size: 1.2rem;
-    line-height: 40px;
-    flex-shrink: 0;
-    min-width: 250px;
-}
-
 .card-main-content ul {
     display: flex;
     flex-direction: row;
@@ -165,4 +157,14 @@ color: white;
     text-align: left;
     margin-top: 20px;
 }
+
+.card-main-content li {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 40px;
+    flex-shrink: 0;
+    min-width: 250px;
+}
+
+
 
