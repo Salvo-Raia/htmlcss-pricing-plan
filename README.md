@@ -2,7 +2,7 @@
 
 Nome repo: `htmlcss-pricing-plan`
 
-### Consegna
+## Consegna
 
 Oggi proviamo a replicare una classica pagina con piano prezzi, capace di adattarsi a diverse risoluzioni:
 
@@ -13,5 +13,6 @@ In modalità mobile i piani si incolonnano uno sull’altro, man mano che cresce
 Il font da utilizzare è un generico sans-serif.
 
 **Bonus**
+
 * In modalità “tablet” (ossia quando entrano solo 2 card), la terza card occupa tutto lo spazio
 * Quando una card occupa tutto lo spazio, la lista delle feature deve sistemarsi in 2 colonne, come nello screen allegato
