@@ -1,18 +1,46 @@
-# Esercizio: Pricing Plan
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-Nome repo: `htmlcss-pricing-plan`
+# 🎓 Exercise 08/50 - Pricing Plan
 
-## Consegna
+Creating a responsive pricing page with a layout that adapts to different screen sizes.
 
-Oggi proviamo a replicare una classica pagina con piano prezzi, capace di adattarsi a diverse risoluzioni:
+## 📌 Project Overview
 
-In modalità mobile i piani si incolonnano uno sull’altro, man mano che cresce lo spazio si affiancano fino ad arrivare a 3 colonne in modalità desktop, quando lo spazio lo permette. 
+| Property | Details |
+|:--|:--|
+| Repository | htmlcss-pricing-plan |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 08/50 |
 
-**Note**
+## 🎯 Assignment
 
-Il font da utilizzare è un generico sans-serif.
+Recreate a classic pricing page featuring three plans, with a responsive layout that adapts to different screen sizes.
 
-**Bonus**
+On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available.
 
-* In modalità “tablet” (ossia quando entrano solo 2 card), la terza card occupa tutto lo spazio
-* Quando una card occupa tutto lo spazio, la lista delle feature deve sistemarsi in 2 colonne, come nello screen allegato
+### 🔎 Notes
+
+- Use a generic `sans-serif` font.
+
+### ⭐ Bonus
+
+Try to implement the following additional responsive behaviors:
+
+- In tablet mode, when only two cards fit side by side, make the third card occupy the full available width.
+- Whenever a card occupies the full width, arrange its feature list into two columns, as shown in the reference screenshot.
+
+## 🛠️ Technologies
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+
+## 💡 What I Learned
+
+- Creating responsive layouts with CSS.
+- Adapting card layouts to different screen sizes.
+- Using CSS media queries to manage responsive breakpoints.
+- Arranging content into multiple columns depending on the available space.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
