@@ -1,6 +1,6 @@
-![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 08/50 - Pricing Plan
+# 🎓 Exercise 08/50: Pricing Plan
 
 Creating a responsive pricing page with a layout that adapts to different screen sizes.
 
@@ -21,7 +21,7 @@ On mobile screens, the pricing cards should be stacked vertically. As the availa
 
 ### 🔎 Notes
 
-- Use a generic `sans-serif` font.
+Use a generic `sans-serif` font.
 
 ### ⭐ Bonus
 
@@ -43,4 +43,4 @@ Try to implement the following additional responsive behaviors:
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
