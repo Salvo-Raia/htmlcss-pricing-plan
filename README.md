@@ -17,11 +17,9 @@ Creating a responsive pricing page with a layout that adapts to different screen
 
 Recreate a classic pricing page featuring three plans, with a responsive layout that adapts to different screen sizes.
 
-On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available.
+On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available. 
 
-### 🔎 Notes
-
-Use a generic `sans-serif` font.
+**Tip:** Use a generic `sans-serif` font.
 
 ### ⭐ Bonus
 
