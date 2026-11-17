@@ -19,8 +19,6 @@ Recreate a classic pricing page featuring three plans, with a responsive layout 
 
 On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available. 
 
-**Tip:** Use a generic `sans-serif` font.
-
 **Bonus**
 
 Try to implement the following additional responsive behaviors:
