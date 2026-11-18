@@ -19,9 +19,9 @@ Recreate a classic pricing page featuring three plans, with a responsive layout 
 
 On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available. 
 
-**Bonus**
+#### Bonus
 
-Try to implement the following additional responsive behaviors:
+Try to implement the following additional responsive behaviors.
 
 - In tablet mode, when only two cards fit side by side, make the third card occupy the full available width.
 - Whenever a card occupies the full width, arrange its feature list into two columns, as shown in the reference screenshot.
