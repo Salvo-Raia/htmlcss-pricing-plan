@@ -4,14 +4,11 @@
 
 Creating a responsive pricing page with a layout that adapts to different screen sizes.
 
-## Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | htmlcss-pricing-plan |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 08/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| htmlcss-pricing-plan | Pricing Plan | Exercise | CSS Responsive layout | 08/50 |
 
 ## Assignment
 
@@ -19,7 +16,7 @@ Recreate a classic pricing page featuring three plans, with a responsive layout 
 
 On mobile screens, the pricing cards should be stacked vertically. As the available space increases, they should gradually align side by side, eventually forming a three-column layout on desktop screens when enough space is available. 
 
-#### Bonus
+#### Bonus challenge
 
 Try to implement the following additional responsive behaviors.
 
