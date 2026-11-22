@@ -8,7 +8,7 @@ Creating a responsive pricing page with a layout that adapts to different screen
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| htmlcss-pricing-plan | Pricing Plan | Exercise | CSS Responsive layout | 08/50 |
+| htmlcss-pricing-plan | Pricing Plan | Exercise | CSS & Responsive layout | 08/50 |
 
 ## Assignment
 
